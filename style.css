@@ -162,6 +162,16 @@ p {
 }
 
 
+/* Features
+===================*/
+.fetures{
+    display: flex;
+}
+
+.features__item{
+    width: 33.33333%;
+}
+
 
 
 
