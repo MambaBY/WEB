@@ -95,7 +95,7 @@ p {
     height: 750px;
     padding-top: 100px;
 
-    background: #31344e url('../img/intro-bg.jpg') no-repeat center  / cover;
+    background: #31344e url("img/intro-bg.jpg") no-repeat center  / cover;
     /*
     Если не работает запись выше, используйте эту:
     background: #31344e url("img/intro-bg.jpg") center no-repeat;
@@ -166,10 +166,35 @@ p {
 ===================*/
 .fetures{
     display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
 }
 
 .features__item{
     width: 33.33333%;
+    padding: 0 40px;
+    margin: 20px 0;
+    text-align: center;
+    
+}
+.features__icon{
+    margin-bottom: 25px;
+}
+
+.features__title{
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
+.fetures__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+
 }
 
 
