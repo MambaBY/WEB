@@ -28,8 +28,9 @@ p {
 ===================*/
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 -5px;
 }
 
 
@@ -257,6 +258,54 @@ p {
 
 
 
+/* Team*/
+.team{
+    margin: 100px 0 70px;
+}
+
+.team__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team__item{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+
+}
+
+.team__photo{
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team__name{
+    margin-bottom: 8px;
+
+    font-size: 22px;
+    color: #2d3033;
+    
+}
+
+.team__prof{
+    margin-bottom: 15px;
+
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.team__text{
+    font-size: 14px;
+    color: #6c7279;
+    line-height: 1.5;
+
+
+}
 
 
 
