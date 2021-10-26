@@ -258,7 +258,8 @@ p {
 
 
 
-/* Team*/
+/* Team
+====================*/
 .team{
     margin: 100px 0 70px;
 }
@@ -300,6 +301,7 @@ p {
 }
 
 .team__text{
+    margin-bottom: 20px;
     font-size: 14px;
     color: #6c7279;
     line-height: 1.5;
@@ -308,6 +310,40 @@ p {
 }
 
 
+/* Social
+===================*/
+.social{
+    display: flex;
+}
+.social__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    background-color: #fff;
+
+    border: 1px solid #e8ecee;
+    transition: background .1s linear;
+}
+
+.social__item:hover{
+    background-color: #e8ecee;
+
+}
+
+.social__item:hover .social__icon{
+    fill: #000;
+}
+
+.social__icon{
+    display: block;
+    height: 18px;
+    fill: #c6cacc;
+
+    transition: fill .1s linear;
+}
 
 
 
