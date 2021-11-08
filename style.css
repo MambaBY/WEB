@@ -167,7 +167,7 @@ p {
 
 /* Features
 ===================*/
-.fetures{
+.features{
     display: flex;
     flex-wrap: wrap;
     margin: 100px 0;
@@ -221,6 +221,7 @@ p {
 }
 
 .works__photo{
+    min-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -546,7 +547,16 @@ p {
 }
 
 /*Media
-==================*/
+==================*/ 
+
+@media (max-width: 1300px){
+    /*Works*/
+    .works__item{
+        width: 50%;
+    }
+
+
+}
 @media (max-width: 991px){
 
      /*nav*/
@@ -563,6 +573,44 @@ p {
     .intro__title{
         font-size: 40px;
     }
+
+    /*Features__item*/
+    .features__item{
+        width: 50%;
+    }
+
+    /*Team*/
+    .team__item{
+        width: 50%;
+        text-align: center;
+    }
+    .team__photo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Social*/
+    .social{
+        justify-content: center;
+    }
+
+     /*Testimonials-Reviews*/
+    .reviews__photo{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .reviews__content{
+       width: 100%;
+       padding-left: 0;
+       padding-bottom: 40px;
+    }
+
+ 
+
+
+
 }
 
 @media (max-width: 767px){
@@ -582,4 +630,79 @@ p {
         margin-bottom: 30px;
         font-size: 16px;
     }
+
+     /*Features__item*/
+     .features{
+         margin: 40px 0;
+     }
+     .features__item{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+       /*Works*/
+    .works__item{
+        width: 100%;
+        height: 300px;
+    }
+
+    /*Team*/
+    .team{
+        margin: 60px 0 30px;
+    }
+    .team__item{
+        width: 100%;
+        
+    }
+
+    /*Testimonials-Reviews*/
+    .reviews__text{
+        font-size: 25px;
+    }
+
+     /*Button*/
+     .btn--long{
+         min-width: 260px;
+     }
+
+     /*doawnload*/
+
+     .downolad{
+         margin: 50px 0;
+
+     }
+
+    .download__title{
+        font-size: 24px;
+    }
+
+    /*Footer*/
+    .footer__iner{
+        padding: 30px 0;
+    }
+
+    .footer__block{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+
+    }
+
+    .footer__block:last-child{
+        margin-bottom: 0;
+    }
+
+    
 }
+
+@media (max-width: 414px){
+
+    /*Reviews*/
+    .reviews__img{
+        right: -100px;
+
+    }
+}
+
